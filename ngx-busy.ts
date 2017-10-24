@@ -179,7 +179,7 @@ import { Component, Input } from '@angular/core';
 
 export class BusyComponent {
 
-  @Input() busy: ISubscription;
+  @Input() busy: Subscription;
 
   constructor() { }
 
